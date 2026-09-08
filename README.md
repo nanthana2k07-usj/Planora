@@ -116,7 +116,7 @@ Console Output
 When the program is executed, the user is first asked to enter the event details.
 
 Input
-
+```
 
 ============================================================
                          PLANORA
