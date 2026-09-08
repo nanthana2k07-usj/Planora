@@ -110,13 +110,13 @@ java project
 ├── EventProcessor.java
 └── PlanoraException.java
 
-## Console Output
+Console Output
 
 When the program is executed, the user is first asked to enter the event details.
 
-### Input
+Input
 
-```text
+
 ============================================================
                          PLANORA
               Unified Event Intelligence Platform
