@@ -109,3 +109,117 @@ java project
 ├── EventValidator.java
 ├── EventProcessor.java
 └── PlanoraException.java
+
+## Console Output
+
+When the program is executed, the user is first asked to enter the event details.
+
+### Input
+
+```text
+============================================================
+                         PLANORA
+              Unified Event Intelligence Platform
+============================================================
+
+Welcome to Planora.
+Let's create your optimized event plan.
+
+ENTER EVENT DETAILS
+------------------------------
+Event Name             : Asha Wedding
+Event Type             : Wedding
+Expected Attendees     : 500
+Total Budget           : Rs.400000
+Event Date DD-MM-YYYY  : 15-12-2026
+
+EVENT SUMMARY
+------------------------------
+Event Name       : Asha Wedding
+Event Type       : Wedding
+Expected Guests  : 500
+Total Budget     : Rs.400000.00
+Event Date       : 15-12-2026
+
+AVAILABLE VENUES
+------------------------------
+Community Hall            Capacity: 600   Cost: Rs.30000.00    Status: Available
+City Convention Hall      Capacity: 1200  Cost: Rs.55000.00    Status: Available
+Grand Convention Centre   Capacity: 2000  Cost: Rs.90000.00    Status: Available
+
+AVAILABLE VENDORS
+------------------------------
+Fresh Feast Catering      Service: Catering     Cost: Rs.70000.00    Rating: 4.3/5
+Royal Caterers            Service: Catering     Cost: Rs.90000.00    Rating: 4.7/5
+Grand Feast Events        Service: Catering     Cost: Rs.120000.00   Rating: 4.9/5
+
+RESOURCE INVENTORY
+------------------------------
+Chairs               : 1500
+Tables               : 300
+Projectors           : 5
+
+PLANORA OPTIMIZATION ENGINE
+------------------------------
+Analyzing event requirements...
+
+RESOURCE REQUIREMENTS
+------------------------------
+Chairs Required     : 550
+Tables Required     : 100
+Projectors Required : 2
+
+RESOURCE AVAILABILITY
+------------------------------
+Chairs              : Available
+Tables              : Available
+Projectors          : Available
+
+OPTIMIZED RECOMMENDATION
+------------------------------
+Best Venue          : Community Hall
+Recommended Vendor  : Grand Feast Events
+Volunteers Required : 10
+Estimated Cost      : Rs.192500.00
+Budget Status       : Within Budget
+Remaining Budget    : Rs.207500.00
+
+VOLUNTEER TEAM
+------------------------------
+Arun            Skill: Registration          Status: Available
+Priya           Skill: Crowd Management      Status: Available
+Rahul           Skill: Technical Support     Status: Available
+Meena           Skill: First Aid             Status: Available
+
+SYSTEM ANALYSIS
+------------------------------
+Processing: Checking venue availability
+Processing: Checking resource allocation
+Processing: Checking scheduling conflicts
+Completed: Checking venue availability
+Completed: Checking resource allocation
+Completed: Checking scheduling conflicts
+
+============================================================
+                  PLANORA FINAL EVENT PLAN
+============================================================
+Event Name          : Asha Wedding
+Event Type          : Wedding
+Event Date          : 15-12-2026
+Expected Guests     : 500
+------------------------------------------------------------
+Selected Venue      : Community Hall
+Venue Capacity      : 600
+Recommended Vendor  : Grand Feast Events
+Vendor Rating       : 4.9/5
+Volunteers Required : 10
+------------------------------------------------------------
+Available Budget    : Rs.400000.00
+Estimated Cost      : Rs.192500.00
+Remaining Budget    : Rs.207500.00
+------------------------------------------------------------
+Event Status        : READY TO PROCEED
+Risk Level          : LOW
+============================================================
+          Planora has prepared your event plan.
+============================================================
